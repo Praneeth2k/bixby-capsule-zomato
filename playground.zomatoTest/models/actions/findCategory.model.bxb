@@ -1,0 +1,11 @@
+action (findCategory) {
+  type(Search)
+  description (Given the category id, it return the category name)
+  collect {
+    input (id) {
+      type (categoryId)
+      min (Required) max (One)
+    }
+  }
+  output (category)
+}

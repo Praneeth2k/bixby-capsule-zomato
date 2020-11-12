@@ -1,0 +1,15 @@
+action (findRestaurants) {
+  type(Search)
+  description (Finds top rated restaurants)
+  collect {
+    input (location) {
+      type (area)
+      min (Required) max (One)
+    }
+    input (cuisine) {
+      type (cuisine)
+      min (Required) max (One)
+    }
+  }
+  output (restaurantNames)
+}
