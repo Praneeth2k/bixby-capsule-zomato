@@ -1,0 +1,15 @@
+action (findRestaurantDetails) {
+  type(Search)
+  description (Shows the details of a particular restaurant)
+  collect {
+    input (restaurantName) {
+      type (restaurantName)
+      min (Required) max (One)
+    }
+    input (area){
+      type(area)
+      min (Required) max (One)
+    }
+  }
+  output (restaurantDetails)
+}

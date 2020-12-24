@@ -1,0 +1,20 @@
+structure (restaurantDetails) {
+  description (Structure to display details of a restaurant)
+  property (restaurantName) {
+    type (restaurantName)
+    min (Required) max (One)
+  }
+  property (timings) {
+    type (timings)
+    min (Required) max (One)
+  }
+  property(costForTwo){
+    type(costForTwo)
+    min(Required) max(One)
+  }
+  property(currency){
+    type(currency)
+    min(Required) max(One)
+  }
+
+}

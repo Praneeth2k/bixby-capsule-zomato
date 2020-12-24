@@ -1,0 +1,5 @@
+train (t-re81xz0lne3tjphu7ijqq6dnc) {
+  utterance ("[g:findTimings] What are the timings for (Ayodhya Upachar)[v:restaurantName] restaurant in (Banashankari)[v:area]")
+  plan (Y2BhkC3ISaxML8ovzUvRq8rPTSzJD0ktLtEryczNzEsvZlDELp2WmZcSAlUihV1JYlFqIoMKdrkiIJFYWpSYV+KXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+  last-modified (1604833523963)
+}

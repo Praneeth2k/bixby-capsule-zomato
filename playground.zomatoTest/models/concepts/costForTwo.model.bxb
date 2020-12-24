@@ -1,0 +1,3 @@
+decimal (costForTwo) {
+  description (Avg money spent by two people in a restaurant)
+}

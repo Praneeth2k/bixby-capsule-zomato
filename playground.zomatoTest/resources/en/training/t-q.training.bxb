@@ -1,0 +1,5 @@
+train (t-qyo8ofjdjylse3zxaimalyb5x) {
+  utterance ("[g:findTimings] What are the timings for (CTR Shri Sagar)[v:restaurantName] restaurant in (Malleshwaram)[v:area]")
+  plan (Y2BhkC3ISaxML8ovzUvRq8rPTSzJD0ktLtEryczNzEsvZlDELp2WmZcSAlUihV1JYlFqIoMKdrkiIJFYWpSYV+KXmJvKwMzAyMAEJBmANAhCAFwUAA==)
+  last-modified (1604832996443)
+}

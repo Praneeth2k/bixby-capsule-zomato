@@ -1,0 +1,5 @@
+train (t-m5kr2ybnci6p2d84faa7zk1a6) {
+  utterance ("[g:findRestaurantDetails] Find details about (Vidyarthi Bhavan)[v:restaurantName] in (Basavanagudi)[v:area]")
+  plan (Y2BhUC/ISaxML8ovzUvRq8rPTSzJD0ktLtErAhKJpUWJeSUuqSWJmTnFDNrYFaZl5qUEYSiWwq44sSg1kUGFkI1+ibmpDMwMjAxMQJIBSIMgBMBFAQ==)
+  last-modified (1608550838499)
+}

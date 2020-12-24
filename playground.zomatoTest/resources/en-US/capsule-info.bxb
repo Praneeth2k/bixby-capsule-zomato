@@ -1,0 +1,13 @@
+capsule-info {
+  display-name (Zomato)
+  developer-name (BMSCE)
+  description ("Uses zomato api and provides restaurant details")
+  dispatch-name (Zomato)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/bixby_launcher.png)
+  search-keywords {
+    keyword (Zomato)
+    keyword (Food)
+    keyword (Restaurant)
+  }
+}

@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: restaurantDetails(restaurantDetails)
+  template("Here are the details of #{value(restaurantDetails.restaurantName)}")
+}

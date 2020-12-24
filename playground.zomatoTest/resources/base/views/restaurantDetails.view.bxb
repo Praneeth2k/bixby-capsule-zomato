@@ -1,0 +1,37 @@
+result-view {
+  match {
+    restaurantDetails(restaurantDetails)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          title-area {
+            slot1 {
+              text {
+                style(Title_L)
+                value("#{value(restaurantDetails.restaurantName)}")
+              }
+            }
+            slot2 {
+              paragraph{
+                style(Title_XS)
+                value("#{value(restaurantDetails.timings)}")
+              }
+            }
+            slot3 {
+              paragraph {
+                style(Detail_L)
+                value("Average cost for 2: #{value(restaurantDetails.costForTwo)} #{value(restaurantDetails.currency)}")
+              }
+            }
+          }
+          
+
+
+        }
+      }
+    }
+  }
+}

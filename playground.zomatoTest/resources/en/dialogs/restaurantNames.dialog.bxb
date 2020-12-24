@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: restaurantNames(restaurantNames)
+  template("Here are the top #{value(restaurantNames.cuisine)} restaurants in #{value(restaurantNames.place)}")
+}

@@ -1,0 +1,27 @@
+result-view {
+  match {
+    restaurantNames(restaurantNames)
+  }
+  render {
+    layout{
+      section{
+        content {
+          partitioned {
+            content {
+              for-each (restaurantNames.restaurantName) {
+                as (restaurant) {
+                  single-line {
+                    text {
+                      value ("#{value(restaurant)}")
+                      style (Detail_L)
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

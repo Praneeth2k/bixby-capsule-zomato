@@ -1,0 +1,15 @@
+structure (restaurantNames) {
+  description (list of restaurant names)
+  property (restaurantName) {
+    type (restaurantName)
+    min (Optional) max (Many)
+  }
+  property(place){
+    type (area)
+    min(Required) max(One)
+  }
+  property(cuisine){
+    type(cuisine)
+    min(Required) max(One)
+  }
+}

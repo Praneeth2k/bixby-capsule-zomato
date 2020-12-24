@@ -1,0 +1,6 @@
+dialog (Result) {
+  match{
+    timings(timings)
+  }
+  template("The timings are as follows:\n ${value(timings)}")
+}

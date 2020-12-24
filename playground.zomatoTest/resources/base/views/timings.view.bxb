@@ -1,0 +1,21 @@
+result-view {
+  match {
+    timings(timings)
+  }
+
+  render {
+    layout{
+      section{
+        content{
+          single-line{
+            text{
+              style (Detail_L)
+              value("Timings: #{value(timings)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

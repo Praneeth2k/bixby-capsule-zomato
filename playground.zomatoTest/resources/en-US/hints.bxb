@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint (With Zomato, ask for top Italian restaurants in your city)
+    hint (With Zomato, ask for the timings of any restaurant)
+    hint (With Zomato, Ask for details of a restaurant)
+  }
+}
